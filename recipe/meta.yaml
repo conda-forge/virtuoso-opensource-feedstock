@@ -36,10 +36,10 @@ requirements:
     - make  # [unix]
   host:
     # OpenSSL?	0.9.7i	http://www.openssl.org/
-    - openssl <1.1
+    - openssl
   run:
     # OpenSSL?	0.9.7i	http://www.openssl.org/
-    - openssl <1.1
+    - openssl
 
 
 test:
@@ -49,7 +49,7 @@ test:
 
 about:
   home: https://virtuoso.openlinksw.com
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL
   license_file: COPYING
   summary: |
