@@ -3,7 +3,7 @@ About virtuoso-opensource
 
 Home: https://virtuoso.openlinksw.com
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/virtuoso-opensource-feedstock/blob/master/LICENSE.txt)
 
