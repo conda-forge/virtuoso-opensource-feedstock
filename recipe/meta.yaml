@@ -29,13 +29,14 @@ requirements:
 
   build:
     - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
     - autoconf 2.*  # [unix]
     - automake 1.*  # [unix]
     - libtool 2.*  # [unix]
     - flex 2.*  # [unix]
-    - bison 3.*  # [unix]
+    - bison <3.6  # [unix]
     - gperf 3.*  # [unix]
-    - gawk 5.*  # [unix]
+    - gawk <5.1  # [unix]
     - m4 1.*  # [unix]
     - make 4.*  # [unix]
   host:
