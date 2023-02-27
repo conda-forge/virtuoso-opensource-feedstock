@@ -7,9 +7,6 @@ package:
 source:
   url: https://github.com/openlink/virtuoso-opensource/archive/v{{ version }}.tar.gz
   sha256: 639bbad860eb7a2bda05a65110999cbe8f1d3f5175edbc3327befc2cab4ccb9f
-  # TODO: maybe remove
-  # patches:
-  #  - git-head.patch
 
 build:
   number: 0
