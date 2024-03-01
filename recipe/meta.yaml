@@ -39,9 +39,10 @@ requirements:
     - m4 1.*                  # [unix]
     - make 4.*                # [unix]
   host:
-    - openssl
+    # TODO: revisit after https://github.com/openlink/virtuoso-opensource/issues/1243
+    - openssl 3.1.*
   run:
-    - openssl
+    - {{ pin_compatible("openssl", max_pin='x.x')) }}
 
 
 test:
