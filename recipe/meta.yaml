@@ -1,4 +1,4 @@
-{% set version = "7.2.11" %}
+{% set version = "7.2.13" %}
 
 package:
   name: virtuoso-opensource
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/openlink/virtuoso-opensource/archive/v{{ version }}.tar.gz
-  sha256: c90a75bb4292fad61851181131a23d729958e2094ca91e0d9e78e68383c62101
+  sha256: 4c146a6ad35c38316ecd873533ad4b99aa7351d58cb8fe79b5ac0d269a89133d
 
 build:
   number: 0
@@ -28,6 +28,7 @@ requirements:
   # | openssl  | 0.9.8e  | 3.0.x  |
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - autoconf 2.*            # [unix]
     - automake 1.*            # [unix]
