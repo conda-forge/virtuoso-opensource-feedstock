@@ -30,8 +30,6 @@ requirements:
     - {{ compiler("c") }}
     - {{ compiler("cxx") }}
     - {{ stdlib("c") }}
-    - autoconf 2.*
-    - automake 1.*
     - bison <3.6
     - flex 2.*
     - gawk <5.1
