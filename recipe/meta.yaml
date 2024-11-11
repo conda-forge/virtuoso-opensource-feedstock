@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/openlink/virtuoso-opensource/archive/v{{ version }}.tar.gz
+  url: https://github.com/openlink/virtuoso-opensource/releases/download/v{{ version }}/virtuoso-opensource-{{ version }}.tar.gz
   sha256: 0f1f45fa4ff652f75debcdc81a8f579028177a3f0b7493b0c9b27109b1f1b09a
 
 build:
