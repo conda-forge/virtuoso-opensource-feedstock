@@ -1,6 +1,8 @@
 c_compiler_version:
-- '14'                # [osx]
-- '13'                # [linux]
+  - '14'                # [osx]
+  - '13'                # [linux]
 cxx_compiler_version:
-- '14'                # [osx]
-- '13'                # [linux]
+  - '14'                # [osx]
+  - '13'                # [linux]
+openssl:
+  - '3.3'

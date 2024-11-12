@@ -41,9 +41,9 @@ requirements:
     - m4 1.*
     - make 4.*
   host:
-    - openssl <3.4
+    - openssl
   run:
-    - openssl <3.4
+    - openssl
 
 test:
   commands:
