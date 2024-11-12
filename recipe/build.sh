@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-./autogen.sh
+export CFLAGS="$CFLAGS -m64"
 ./configure --prefix=$PREFIX
 # TODO: restore when done debugging
 # make -j$CPU_COUNT
