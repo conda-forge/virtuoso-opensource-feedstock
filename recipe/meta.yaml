@@ -1,4 +1,4 @@
-{% set version = "7.2.16" %}
+{% set version = "7.2.17" %}
 
 package:
   name: virtuoso-opensource
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/openlink/virtuoso-opensource/releases/download/v{{ version }}/virtuoso-opensource-{{ version }}.tar.gz
-  sha256: 0a70dc17f0e333d73307c9c46e8a7a82df70a410ddfe027a5bf7ba6c9204a928
+  sha256: 41e0afd6d37c1c41b993282ce11c5cf68f7bb7c0bd7887ef2ff558c452570216
   patches:   # [linux]
     # for "error: expected identifier or '(' before '__extension__'""
     - 0000-no-strdup.patch  # [linux]
